@@ -1,0 +1,72 @@
+Index: src/HelloGit.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class HelloGit {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"Hello Git\");\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/HelloGit.java b/src/HelloGit.java
+--- a/src/HelloGit.java	(revision 73c67127df9a6a9d20ca6b562445eb00b5946e7c)
++++ b/src/HelloGit.java	(date 1758647789640)
+@@ -1,5 +1,4 @@
+ public class HelloGit {
+     public static void main(String[] args) {
+         System.out.println("Hello Git");
+-    }
+-}
++    }
+\ No newline at end of file
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore	(revision 73c67127df9a6a9d20ca6b562445eb00b5946e7c)
++++ /dev/null	(revision 73c67127df9a6a9d20ca6b562445eb00b5946e7c)
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: .idea/modules.xml
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+deleted file mode 100644
+--- a/.idea/modules.xml	(revision 73c67127df9a6a9d20ca6b562445eb00b5946e7c)
++++ /dev/null	(revision 73c67127df9a6a9d20ca6b562445eb00b5946e7c)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/sample_projects.iml" filepath="$PROJECT_DIR$/sample_projects.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+deleted file mode 100644
+--- a/.idea/vcs.xml	(revision 73c67127df9a6a9d20ca6b562445eb00b5946e7c)
++++ /dev/null	(revision 73c67127df9a6a9d20ca6b562445eb00b5946e7c)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+deleted file mode 100644
+--- a/.idea/misc.xml	(revision 73c67127df9a6a9d20ca6b562445eb00b5946e7c)
++++ /dev/null	(revision 73c67127df9a6a9d20ca6b562445eb00b5946e7c)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
+-</project>
+\ No newline at end of file
