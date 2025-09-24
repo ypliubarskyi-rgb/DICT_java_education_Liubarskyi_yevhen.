@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8268558-6505-4a16-a1ae-f4d1980c8d6a" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_09_2025_20_30_[Changes]/shelved.patch" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_09_2025_20_30_[Changes]1/shelved.patch" afterDir="false" />
@@ -13,6 +14,9 @@
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/HelloGit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloGit.java" afterDir="false" />
+>>>>>>> 27437dc (123)
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +73,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+<<<<<<< HEAD
     "git-widget-placeholder": "dev",
+=======
+    "git-widget-placeholder": "featture",
+>>>>>>> 27437dc (123)
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "terminal"
   }
