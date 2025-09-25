@@ -1,1 +1,1 @@
-л�Любар��Liubarskyi Yevhen 500
+Liubarskyi Yevhen 500
