@@ -1,0 +1,259 @@
+Index: src/HelloGit.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/HelloGit.java b/src/HelloGit.java
+--- a/src/HelloGit.java
++++ b/src/HelloGit.java	(date 1758648620728)
+@@ -1,5 +1,4 @@
+ public class HelloGit {
+     public static void main(String[] args) {
+         System.out.println("Hello Git");
+-    }
+-}
++    }
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_23_09_2025_20_30_[Changes]/shelved.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_09_2025_20_30_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_09_2025_20_30_[Changes]/shelved.patch
+new file mode 100644
+--- /dev/null	(date 1758648622818)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_09_2025_20_30_[Changes]/shelved.patch	(date 1758648622818)
+@@ -0,0 +1,41 @@
++Index: .gitignore
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+>### IntelliJ IDEA ###\r\nout/\r\n!**/src/main/**/out/\r\n!**/src/test/**/out/\r\n.idea/\r\n\r\n### Eclipse ###\r\n.apt_generated\r\n.classpath\r\n.factorypath\r\n.project\r\n.settings\r\n.springBeans\r\n.sts4-cache\r\nbin/\r\n!**/src/main/**/bin/\r\n!**/src/test/**/bin/\r\n\r\n### NetBeans ###\r\n/nbproject/private/\r\n/nbbuild/\r\n/dist/\r\n/nbdist/\r\n/.nb-gradle/\r\n\r\n### VS Code ###\r\n.vscode/\r\n\r\n### Mac OS ###\r\n.DS_Store
++===================================================================
++diff --git a/.gitignore b/.gitignore
++--- a/.gitignore	(revision 73c67127df9a6a9d20ca6b562445eb00b5946e7c)
+++++ b/.gitignore	(date 1758647831395)
++@@ -1,30 +1,2 @@
++-### IntelliJ IDEA ###
++-out/
++-!**/src/main/**/out/
++-!**/src/test/**/out/
++-.idea/
++-
++-### Eclipse ###
++-.apt_generated
++-.classpath
++-.factorypath
++-.project
++-.settings
++-.springBeans
++-.sts4-cache
++-bin/
++-!**/src/main/**/bin/
++-!**/src/test/**/bin/
++ 
++-### NetBeans ###
++-/nbproject/private/
++-/nbbuild/
++-/dist/
++-/nbdist/
++-/.nb-gradle/
++-
++-### VS Code ###
++-.vscode/
++-
++-### Mac OS ###
++-.DS_Store
++\ No newline at end of file
+++.idea
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_23_09_2025_20_30_[Changes]1/shelved.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_09_2025_20_30_[Changes]1/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_09_2025_20_30_[Changes]1/shelved.patch
+new file mode 100644
+--- /dev/null	(date 1758648622834)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_09_2025_20_30_[Changes]1/shelved.patch	(date 1758648622834)
+@@ -0,0 +1,72 @@
++Index: src/HelloGit.java
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+>public class HelloGit {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"Hello Git\");\r\n    }\r\n}\r\n
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/src/HelloGit.java b/src/HelloGit.java
++--- a/src/HelloGit.java	(revision 73c67127df9a6a9d20ca6b562445eb00b5946e7c)
+++++ b/src/HelloGit.java	(date 1758647789640)
++@@ -1,5 +1,4 @@
++ public class HelloGit {
++     public static void main(String[] args) {
++         System.out.println("Hello Git");
++-    }
++-}
+++    }
++\ No newline at end of file
++Index: .idea/.gitignore
++===================================================================
++diff --git a/.idea/.gitignore b/.idea/.gitignore
++deleted file mode 100644
++--- a/.idea/.gitignore	(revision 73c67127df9a6a9d20ca6b562445eb00b5946e7c)
+++++ /dev/null	(revision 73c67127df9a6a9d20ca6b562445eb00b5946e7c)
++@@ -1,3 +0,0 @@
++-# Default ignored files
++-/shelf/
++-/workspace.xml
++Index: .idea/modules.xml
++===================================================================
++diff --git a/.idea/modules.xml b/.idea/modules.xml
++deleted file mode 100644
++--- a/.idea/modules.xml	(revision 73c67127df9a6a9d20ca6b562445eb00b5946e7c)
+++++ /dev/null	(revision 73c67127df9a6a9d20ca6b562445eb00b5946e7c)
++@@ -1,8 +0,0 @@
++-<?xml version="1.0" encoding="UTF-8"?>
++-<project version="4">
++-  <component name="ProjectModuleManager">
++-    <modules>
++-      <module fileurl="file://$PROJECT_DIR$/sample_projects.iml" filepath="$PROJECT_DIR$/sample_projects.iml" />
++-    </modules>
++-  </component>
++-</project>
++\ No newline at end of file
++Index: .idea/vcs.xml
++===================================================================
++diff --git a/.idea/vcs.xml b/.idea/vcs.xml
++deleted file mode 100644
++--- a/.idea/vcs.xml	(revision 73c67127df9a6a9d20ca6b562445eb00b5946e7c)
+++++ /dev/null	(revision 73c67127df9a6a9d20ca6b562445eb00b5946e7c)
++@@ -1,6 +0,0 @@
++-<?xml version="1.0" encoding="UTF-8"?>
++-<project version="4">
++-  <component name="VcsDirectoryMappings">
++-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++-  </component>
++-</project>
++\ No newline at end of file
++Index: .idea/misc.xml
++===================================================================
++diff --git a/.idea/misc.xml b/.idea/misc.xml
++deleted file mode 100644
++--- a/.idea/misc.xml	(revision 73c67127df9a6a9d20ca6b562445eb00b5946e7c)
+++++ /dev/null	(revision 73c67127df9a6a9d20ca6b562445eb00b5946e7c)
++@@ -1,6 +0,0 @@
++-<?xml version="1.0" encoding="UTF-8"?>
++-<project version="4">
++-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
++-    <output url="file://$PROJECT_DIR$/out" />
++-  </component>
++-</project>
++\ No newline at end of file
+Index: .idea/vcs.xml
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+deleted file mode 100644
+--- a/.idea/vcs.xml
++++ /dev/null
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore
++++ /dev/null
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: .idea/modules.xml
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+deleted file mode 100644
+--- a/.idea/modules.xml
++++ /dev/null
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/sample_projects.iml" filepath="$PROJECT_DIR$/sample_projects.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+deleted file mode 100644
+--- a/.idea/misc.xml
++++ /dev/null
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .gitignore
+===================================================================
+diff --git a/.gitignore b/.gitignore
+deleted file mode 100644
+--- a/.gitignore
++++ /dev/null
+@@ -1,29 +0,0 @@
+-### IntelliJ IDEA ###
+-out/
+-!**/src/main/**/out/
+-!**/src/test/**/out/
+-
+-### Eclipse ###
+-.apt_generated
+-.classpath
+-.factorypath
+-.project
+-.settings
+-.springBeans
+-.sts4-cache
+-bin/
+-!**/src/main/**/bin/
+-!**/src/test/**/bin/
+-
+-### NetBeans ###
+-/nbproject/private/
+-/nbbuild/
+-/dist/
+-/nbdist/
+-/.nb-gradle/
+-
+-### VS Code ###
+-.vscode/
+-
+-### Mac OS ###
+-.DS_Store
+\ No newline at end of file
+diff --git a/sample_projects.iml b/sample_projects.iml
+deleted file mode 100644
+diff --git a/src/.gitighnor b/src/.gitighnor
+deleted file mode 100644
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/.idea/.name b/.idea/.name
+deleted file mode 100644
+index e69de29bb2d1d6434b8b29ae775ad8c2e48c5391..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
